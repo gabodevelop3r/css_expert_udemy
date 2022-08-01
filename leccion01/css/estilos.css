@@ -1,23 +1,5 @@
-*{
-    background-color: ghostwhite;
-    color: cornflowerblue;
-}
-
-
-#titulo {
+h1, h2, p, div{
 
     color: crimson;
-    text-align:center;
-
-}
-
-.centrar{
-
     text-align: center;
-
-
-}
-
-.texto_grande{
-    font-size: 20px;
 }
