@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 h1{
     text-align: center;
     color: #e63946;
@@ -5,10 +10,13 @@ h1{
 
 div{
     padding:10px 15px 5px 3px;
-    border: 15px solid #457b9d;
-    margin: 20px;
+    border: 1px solid #457b9d;
+    margin: 0px;
     background-color: #f1faee;
-    width:300px;
-    outline:10px solid #a8dadc;
-    outline-offset: 10px ;
+    max-width:300px;
+    max-height: 100px;
+    outline:20px ;
+    outline-offset: 20px ;
+    box-sizing: border-box;
+
 }
